@@ -1,14 +1,14 @@
 # by Kami Bigdely
 # Indentation
+
 def write_to_db():
-   print('person info are written into db.')
-    
+    print('person info are written into db.')    
     
 def set_person_info(first_name, last_name, gender, date_of_birth, photo, nationality, place_of_birth):
     if not first_name:
-      print('first name is empty.') 
+        print('first name is empty.') 
     if not last_name:
-      print('last name is empty.')
+        print('last name is empty.')
     # ...    
     write_to_db()
 
